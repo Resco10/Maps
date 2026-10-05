@@ -189,3 +189,41 @@ button{font:inherit}
 .about-fact strong{font-size:1.14rem}
 @media(max-width:900px){.welcome-mark{grid-template-columns:150px 1fr}.welcome-grid{grid-template-columns:1fr}.about-hero-grid,.about-layout{grid-template-columns:1fr}.about-logo{justify-self:start;max-width:240px}.home-about-inner{align-items:flex-start;flex-direction:column}}
 @media(max-width:620px){.welcome-hero{padding-top:44px}.welcome-mark{grid-template-columns:1fr;padding:20px}.welcome-mark img{max-width:210px}.welcome-mark-copy strong{font-size:2.5rem}.welcome-card{min-height:220px}.about-story{padding:22px}}
+
+
+/* V4 media links + social footer */
+.footer-right{display:flex;align-items:flex-end;flex-direction:column;gap:10px}
+.footer-social{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.social-icon{width:38px;height:38px;display:flex;align-items:center;justify-content:center;line-height:0;background:#252525;color:#fff;border:1px solid #3a3a3a;transition:.15s;padding:0}
+.social-icon svg{width:19px;height:19px;fill:currentColor;display:block;flex:0 0 auto}
+.social-icon:hover{transform:translateY(-2px);background:#252525;color:var(--yellow);border-color:var(--yellow)}
+.media-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.media-card{display:grid;grid-template-columns:76px 1fr;gap:20px;align-items:start;background:var(--white);border:2px solid var(--ink);padding:24px;box-shadow:6px 6px 0 #d7d0be;transition:.15s}
+.media-card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--yellow)}
+.media-icon{width:68px;height:68px;display:grid;place-items:center;background:var(--ink);color:var(--yellow)}
+.media-icon svg{width:35px;height:35px;fill:currentColor}
+.media-kicker{font-family:"Courier New",monospace;text-transform:uppercase;letter-spacing:.08em;font-weight:900;font-size:.72rem;color:var(--muted)}
+.media-card h2{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;font-size:2rem;line-height:1;margin:6px 0 10px}
+.media-card p{margin:0 0 16px;color:var(--muted)}
+.media-card b{text-transform:uppercase;font-size:.8rem;letter-spacing:.04em}
+.media-youtube .media-icon{background:#ff0033;color:#fff}
+.media-x .media-icon{background:#000;color:#fff}
+.media-twitch .media-icon{background:#9146ff;color:#fff}
+.media-pmc .media-icon{background:#3b7f43;color:#fff}
+.dev-placeholder{background:var(--ink);color:var(--white);border-bottom:10px solid var(--yellow);padding:40px;box-shadow:8px 8px 0 #d7d0be}
+.dev-placeholder h2{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;font-size:clamp(2rem,4vw,3.2rem);margin:14px 0 12px}
+.dev-placeholder>p{color:#cfcfcf;max-width:760px;margin:0 0 28px}
+.dev-status{display:inline-block;background:var(--yellow);color:var(--ink);padding:6px 9px;font-family:"Courier New",monospace;text-transform:uppercase;font-weight:900;letter-spacing:.08em;font-size:.72rem}
+.dev-placeholder-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#444;border:1px solid #444}
+.dev-placeholder-grid>div{background:#181818;padding:18px}
+.dev-placeholder-grid strong{display:block;color:var(--yellow);margin-bottom:5px}
+.dev-placeholder-grid span{color:#bdbdbd;font-size:.92rem}
+@media(max-width:900px){.media-grid{grid-template-columns:1fr}.dev-placeholder-grid{grid-template-columns:1fr}.footer-right{align-items:flex-start}.footer-inner{align-items:flex-start}}
+@media(max-width:620px){.media-card{grid-template-columns:1fr}.media-icon{width:58px;height:58px}.dev-placeholder{padding:26px}.footer-social{gap:8px}}
+
+/* V4.1 header social links */
+.header-social{display:flex;align-items:center;gap:6px;margin-left:8px;padding-left:10px;border-left:1px solid #3a3a3a}
+.header-social-icon{width:32px;height:32px;display:flex;align-items:center;justify-content:center;line-height:0;color:#fff;border:1px solid #3a3a3a;background:#1b1b1b;transition:.15s;padding:0}
+.header-social-icon svg{width:16px;height:16px;fill:currentColor;display:block;flex:0 0 auto}
+.header-social-icon:hover{background:#1b1b1b;color:var(--yellow);border-color:var(--yellow);transform:translateY(-1px)}
+@media(max-width:900px){.header-social{margin:8px 0 0;padding:14px 0 0;border-left:0;border-top:1px solid #333;justify-content:flex-start}.header-social-icon{width:40px;height:40px}.header-social-icon svg{width:19px;height:19px}}
