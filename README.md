@@ -14,3 +14,6 @@ The site uses no build step and no framework.
 ## Notes
 - Existing MediaFire links are preserved.
 - Map artwork is referenced from the existing Weebly uploads so the original branding remains visible. For complete independence from Weebly, download those images later into `assets/images/` and update the `src` URLs.
+
+
+Version: V2 — Home refresh, About page and Java tag update.
