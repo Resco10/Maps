@@ -9,3 +9,10 @@ const setOpen=open=>{if(!panel||!btn)return;panel.hidden=!open;btn.setAttribute(
 paint(readPref());
 btn?.addEventListener('click',e=>{e.stopPropagation();setOpen(panel?.hidden!==false)});close?.addEventListener('click',()=>setOpen(false));choices.forEach(c=>c.addEventListener('click',()=>{save(c.dataset.themeChoice);setOpen(false)}));
 document.addEventListener('click',e=>{if(panel&&!panel.hidden&&!panel.contains(e.target)&&e.target!==btn)setOpen(false)});document.addEventListener('keydown',e=>{if(e.key==='Escape')setOpen(false)});media.addEventListener?.('change',()=>{if(readPref()==='system')paint('system')});})();
+
+
+document.querySelectorAll('[data-dev-filter]').forEach(btn=>btn.addEventListener('click',()=>{
+  const f=btn.dataset.devFilter;
+  document.querySelectorAll('[data-dev-filter]').forEach(x=>x.classList.toggle('active',x===btn));
+  document.querySelectorAll('[data-dev-labels]').forEach(post=>{post.hidden=f!=='All'&&!String(post.dataset.devLabels||'').split('|').includes(f)});
+}));

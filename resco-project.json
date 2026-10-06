@@ -1,0 +1,1510 @@
+{
+  "publicExport": true,
+  "editor": "RESCO Offline Editor V5.10",
+  "version": "V5.11",
+  "generatedAt": "2026-10-06T21:08:06.597Z",
+  "settings": {
+    "siteName": "RESCO",
+    "siteSubtitle": "Minecraft maps & projects.",
+    "copyright": "© 2026 Resco10",
+    "defaultTheme": "system",
+    "devUpdatesMode": "live",
+    "homepageHeading": "Explore RESCO",
+    "homepageIntro": "This is the home of my Minecraft projects. Explore maps for Java and Bedrock Edition, check their changelogs, see screenshots and videos, and follow how each project has grown over time.",
+    "latestMapsCount": 3,
+    "homepageFeaturedMap": "",
+    "aboutStory": "It all started back in 2020 during the pandemic. That summer, I came across a Minecraft map that someone had created years earlier, and it gave me the idea to completely revamp the build in my own way. That project became Mountain House, the first map I ever uploaded.\n\nI had made other builds before then, but Mountain House was the first one I actually released publicly. From there, I kept creating new maps for both Minecraft Java Edition and Bedrock Edition, often with the help of friends along the way.\n\nSince then, the projects have continued to grow through new maps, updates, improvements and new ideas including Survive to Glory, Starter Survival, Ultimate Survival Base and Mountain House 2. This website brings them all together in one place.",
+    "socials": {
+      "youtube": "https://www.youtube.com/@OfficialResco",
+      "x": "https://x.com/RescoPlays",
+      "twitch": "https://www.twitch.tv/resco10",
+      "planetMinecraft": "https://www.planetminecraft.com/member/resco/"
+    }
+  },
+  "maps": [
+    {
+      "id": "mountain-house",
+      "title": "Mountain House",
+      "slug": "mountain-house",
+      "edition": "Java",
+      "mapVersion": "3.0",
+      "minecraft": "1.21.11",
+      "credits": "Resco10",
+      "description": "The original Mountain House map, featuring a survival base built into a mountain.",
+      "download": "https://www.mediafire.com/file/x6qxrjtk26901sl/Mountain_House_V3.rar/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2026/658/19439866-untitled_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437902_xl.webp",
+            "caption": "Animal Pens and Front"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437871_xl.webp",
+            "caption": "Entrance with updated signs in V3.0"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437876_xl.webp",
+            "caption": "New refurbished main room"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437879_xl.webp",
+            "caption": "Main Room 2"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437880_xl.webp",
+            "caption": "Storage Room in V3.0"
+          },
+          {
+            "id": "img-6",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437889_xl.webp",
+            "caption": "Cinema"
+          },
+          {
+            "id": "img-7",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437884_xl.webp",
+            "caption": "Smelting Room"
+          },
+          {
+            "id": "img-8",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437886_xl.webp",
+            "caption": "Trading Hall 2"
+          },
+          {
+            "id": "img-9",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437888_xl.webp",
+            "caption": "New 3rd Floor room leading to Animal Pens"
+          },
+          {
+            "id": "img-10",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/658/19437900_xl.webp",
+            "caption": "Animal Pens"
+          }
+        ],
+        "videos": []
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 5,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2026/658/19439866-untitled_l.jpg",
+        "cardDescription": "The original Mountain House map, featuring a survival base built into a mountain."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Cinema Room",
+          "description": "Cinema room."
+        },
+        {
+          "id": "feat-2",
+          "title": "Storage Room",
+          "description": "Large storage room."
+        },
+        {
+          "id": "feat-3",
+          "title": "Enchanting Station",
+          "description": "Dedicated enchanting room."
+        },
+        {
+          "id": "feat-4",
+          "title": "Automatic Furnaces",
+          "description": "Automatic furnace system."
+        },
+        {
+          "id": "feat-5",
+          "title": "Portal Room",
+          "description": "End and Nether portal area."
+        },
+        {
+          "id": "feat-6",
+          "title": "Animal Pens",
+          "description": "Rooftop animal pens, including chickens."
+        },
+        {
+          "id": "feat-7",
+          "title": "Trading Hall",
+          "description": "Villager trading area."
+        },
+        {
+          "id": "feat-8",
+          "title": "Crafting Room",
+          "description": "Main room with all utility tables."
+        },
+        {
+          "id": "feat-9",
+          "title": "Armory",
+          "description": "Upstairs armory with all armor sets."
+        },
+        {
+          "id": "feat-10",
+          "title": "Updated Lighting",
+          "description": "Improved lighting throughout the base."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update V3",
+          "date": "31 December 2025",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "New Features",
+              "items": [
+                "Main room redecorated into the new Crafting Room.",
+                "All crafting and utility tables added.",
+                "Upstairs redesigned into a compact Armory with all armor sets.",
+                "Old Crafting Room replaced by a Villager Trading Hall.",
+                "Trading Hall connected directly to the Smelting Room.",
+                "Decorative plants added across the base.",
+                "Improved lighting throughout.",
+                "Item frames with icons added to storage chests.",
+                "Third-floor room updated to lead directly to Animal Pens.",
+                "Chicken pen added.",
+                "Welcome signs updated.",
+                "Water outside the base removed."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Fixes",
+              "items": [
+                "Updated map to Minecraft 1.21.11."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-2",
+          "version": "Update V2",
+          "date": "19 April 2022",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "New Features",
+              "items": [
+                "Updated welcome/info wall and entrance.",
+                "Converted empty room into a crafting room with Smithing Table, Loom, Blast Furnace, Smoker, Stonecutter, Fletching Table, Cartography Table and Grindstone."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Fixes",
+              "items": [
+                "Fixed holes outside the house entrance.",
+                "Updated map to 1.18.2."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-3",
+          "version": "Update V1.5",
+          "date": "1 December 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Updated map to 1.18."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-4",
+          "version": "Update V1.4",
+          "date": "23 June 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Fixed Nether generation."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-5",
+          "version": "Update V1.3",
+          "date": "23 June 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Updated map to 1.17.1."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-6",
+          "version": "Update V1.2",
+          "date": "13 June 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Updated map to 1.17."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 4
+    },
+    {
+      "id": "mountain-house-2",
+      "title": "Mountain House 2",
+      "slug": "mountain-house-2",
+      "edition": "Java",
+      "mapVersion": "1.1",
+      "minecraft": "26.2",
+      "credits": "Map by Resco10",
+      "description": "The sequel to the original Mountain House, with the base built directly into a mountain and featuring redstone systems, farms, storage and more.",
+      "download": "https://www.mediafire.com/file/vbxfh7nvr7qy6y6/Mountain_House_2_-_V1.1_-_The_Farm_District_Update.zip/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19995778-untitled-julyat_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445832-frontcloseup_xl.webp",
+            "caption": "Front Close Up"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19444667-frontday_xl.webp",
+            "caption": "Front from Bridge"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445831-frontnight_xl.webp",
+            "caption": "Front from Bridge - Night"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19995684_xl.webp",
+            "caption": "The Farm District"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19995680_xl.webp",
+            "caption": "Farm Storage Stairs and Corridor"
+          },
+          {
+            "id": "img-6",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19995682_xl.webp",
+            "caption": "Farm Storage Back"
+          },
+          {
+            "id": "img-7",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445820-craftingroom_xl.webp",
+            "caption": "Crafting Room"
+          },
+          {
+            "id": "img-8",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445823-craftingroom_xl.webp",
+            "caption": "Crafting Room"
+          },
+          {
+            "id": "img-9",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445817-armory_xl.webp",
+            "caption": "Armory"
+          },
+          {
+            "id": "img-10",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445818-armory_xl.webp",
+            "caption": "Armory"
+          },
+          {
+            "id": "img-11",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445829-farmingroom_xl.webp",
+            "caption": "Farm Room"
+          },
+          {
+            "id": "img-12",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445838-smeltingroom_xl.webp",
+            "caption": "Smelting Room"
+          },
+          {
+            "id": "img-13",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445824-entrance_xl.webp",
+            "caption": "Entrance 2"
+          },
+          {
+            "id": "img-14",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445840-storageroom_xl.webp",
+            "caption": "Storage Room"
+          },
+          {
+            "id": "img-15",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445841-storageroom_xl.webp",
+            "caption": "Storage Room"
+          },
+          {
+            "id": "img-16",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445834-portalenchanting_xl.webp",
+            "caption": "Enchanting and Portal Room"
+          },
+          {
+            "id": "img-17",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445835-portalenchanting_xl.webp",
+            "caption": "Enchanting and Portal Room"
+          },
+          {
+            "id": "img-18",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19445842-tradinghall_xl.webp",
+            "caption": "Trading Hall"
+          }
+        ],
+        "videos": [
+          {
+            "id": "vid-1",
+            "url": "https://www.youtube.com/watch?v=-Kg0GtNAHtQ",
+            "title": ""
+          },
+          {
+            "id": "vid-2",
+            "url": "https://www.youtube.com/watch?v=7GH30rVeDyU",
+            "title": ""
+          }
+        ]
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 1,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2026/121/19995778-untitled-julyat_l.jpg",
+        "cardDescription": "The sequel to the original Mountain House, with the base built directly into a mountain and featuring redstone systems, farms, storage and more."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Redstone entrances",
+          "description": "2x2 entrances at the front and back of the base."
+        },
+        {
+          "id": "feat-2",
+          "title": "Lighting system",
+          "description": "Redstone lighting throughout the base with dedicated switches."
+        },
+        {
+          "id": "feat-3",
+          "title": "Crafting Room",
+          "description": "Crafting and utility tables, furnaces, smokers and shulker storage."
+        },
+        {
+          "id": "feat-4",
+          "title": "Armory",
+          "description": "Armor closet with armor sets, tools and weapons, plus a double bed."
+        },
+        {
+          "id": "feat-5",
+          "title": "Farm Room",
+          "description": "Automatic sugar cane and bamboo farms."
+        },
+        {
+          "id": "feat-6",
+          "title": "Smelting Room",
+          "description": "Two super smelters: blast furnace and standard furnace systems."
+        },
+        {
+          "id": "feat-7",
+          "title": "Storage Room",
+          "description": "Large storage area connected to the enchanting and portal room."
+        },
+        {
+          "id": "feat-8",
+          "title": "Enchanting & Portal",
+          "description": "Enchanting table, Nether portal and themed Warped/Crimson decoration."
+        },
+        {
+          "id": "feat-9",
+          "title": "Trading Hall",
+          "description": "Trading area with all villager professions, 13 villagers and one extra slot."
+        },
+        {
+          "id": "feat-10",
+          "title": "Farm District",
+          "description": "Crop farms, four animal pens and dedicated farm storage."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update V1.1 — The Farm District",
+          "date": "",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes & Improvements",
+              "items": [
+                "Updated to Minecraft Version 26.2",
+                "Doors: levers now work both ways correctly; side entrance lever repositioned.",
+                "Added pressure plates with a welcome message and updated information board.",
+                "Updated main entrance with a Smooth Quartz Stairs header.",
+                "Expanded the Nether showcase beside the portal.",
+                "Patched holes and caves around the mountain.",
+                "Moved the portal/enchanting room light switch above the enchanting table."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "New Additions",
+              "items": [
+                "New Farm District.",
+                "Crop farms: wheat, potato, carrot, beetroot, pumpkin and melon.",
+                "Four animal pens: cows, sheep, pigs and chickens.",
+                "New Farm Storage under the farms, with a corridor planned to connect further into the base."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 1
+    },
+    {
+      "id": "starter-survival",
+      "title": "Starter Survival",
+      "slug": "starter-survival",
+      "edition": "Bedrock",
+      "mapVersion": "1.0",
+      "minecraft": "Current Bedrock",
+      "credits": "Resco & MattiJR10",
+      "description": "A simple Bedrock starter world with a ready-built house and the basic items needed to get started.",
+      "download": "https://www.mediafire.com/file/5lqpv0f4c57pyaq/Starter_Survival_-_MC_Bedrock_Edition.mcworld/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2024/315/17897338-startersurvival_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2022/315/16211559-image_xl.webp",
+            "caption": "House"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2022/315/16211561-image_xl.webp",
+            "caption": "House Night"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2022/315/16211555-image_xl.webp",
+            "caption": "First Floor"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2022/315/16211556-image_xl.webp",
+            "caption": "First Floor"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2022/315/16211557-image_xl.webp",
+            "caption": "Second Floor"
+          }
+        ],
+        "videos": []
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 2,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2024/315/17897338-startersurvival_l.jpg",
+        "cardDescription": "A simple Bedrock starter world with a ready-built house and the basic items needed to get started."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Starter House",
+          "description": "Ready-built survival house."
+        },
+        {
+          "id": "feat-2",
+          "title": "Bedrock Import",
+          "description": "Download provided as an .mcworld file."
+        },
+        {
+          "id": "feat-3",
+          "title": "Mobile Friendly",
+          "description": "Can be imported into Minecraft on supported devices."
+        },
+        {
+          "id": "feat-4",
+          "title": "Survival Ready",
+          "description": "Includes the basic setup needed to start playing."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update V1.0 — Starter Survival",
+          "date": "",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes",
+              "items": [
+                "Map moved to Bedrock Edition."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 5
+    },
+    {
+      "id": "survive-to-glory",
+      "title": "Survive to Glory",
+      "slug": "survive-to-glory",
+      "edition": "Java",
+      "mapVersion": "1.3.2",
+      "minecraft": "1.18.2",
+      "credits": "Resco10",
+      "description": "A survival base with farms, automation and Vanilla Tweaks content included.",
+      "download": "https://www.mediafire.com/file/kban30l92fj0jql/Survive_to_Glory_v1.3.2.zip/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2022/483/15611432-myproject_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678228_xl.webp",
+            "caption": "Aerial View of Base"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678227_xl.webp",
+            "caption": "Semi-Automatic Wheat / Beetroot / Carrot / Potato Farm"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678213_xl.webp",
+            "caption": "Cactus Farm"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678214_xl.webp",
+            "caption": "Pumpkin / Melon Farm"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678215_xl.webp",
+            "caption": "Animal Pens"
+          },
+          {
+            "id": "img-6",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678216_xl.webp",
+            "caption": "Sugar Cane Farm"
+          },
+          {
+            "id": "img-7",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678217_xl.webp",
+            "caption": "Revamped Base Entrance"
+          },
+          {
+            "id": "img-8",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678218_xl.webp",
+            "caption": "Revamped Base Entrance"
+          },
+          {
+            "id": "img-9",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678219_xl.webp",
+            "caption": "Mine Entrance"
+          },
+          {
+            "id": "img-10",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678220_xl.webp",
+            "caption": "Main Base Area"
+          },
+          {
+            "id": "img-11",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678236_xl.webp",
+            "caption": "Automatic Furnace"
+          },
+          {
+            "id": "img-12",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678221_xl.webp",
+            "caption": "Enchanting Table Station"
+          },
+          {
+            "id": "img-13",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678223_xl.webp",
+            "caption": "Shulker Box Swapper"
+          },
+          {
+            "id": "img-14",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678224_xl.webp",
+            "caption": "Armor Stand Case"
+          },
+          {
+            "id": "img-15",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2021/483/14678226_xl.webp",
+            "caption": "Main Base Area"
+          }
+        ],
+        "videos": []
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 4,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2022/483/15611432-myproject_l.jpg",
+        "cardDescription": "A survival base with farms, automation and Vanilla Tweaks content included."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Automatic Smelter",
+          "description": "Super Smelter."
+        },
+        {
+          "id": "feat-2",
+          "title": "Semi-Auto Crops",
+          "description": "Wheat, potato, beetroot and carrot farming."
+        },
+        {
+          "id": "feat-3",
+          "title": "Automatic Cactus",
+          "description": "Automatic cactus farm."
+        },
+        {
+          "id": "feat-4",
+          "title": "Pumpkin & Melon",
+          "description": "Automatic pumpkin and melon farm."
+        },
+        {
+          "id": "feat-5",
+          "title": "Sugar Cane",
+          "description": "Automatic sugar cane farm."
+        },
+        {
+          "id": "feat-6",
+          "title": "Enchanting Station",
+          "description": "Dedicated enchanting area."
+        },
+        {
+          "id": "feat-7",
+          "title": "Shulker Swapper",
+          "description": "Shulker Box Swapper."
+        },
+        {
+          "id": "feat-8",
+          "title": "Armor Stand Case",
+          "description": "Armor Stand Case."
+        },
+        {
+          "id": "feat-9",
+          "title": "Bundled Datapacks",
+          "description": "TreeCapitator and Vanilla Tweaks datapacks."
+        },
+        {
+          "id": "feat-10",
+          "title": "Resource Pack",
+          "description": "Vanilla Tweaks resource pack included."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update 1.3.2 — Patch Update",
+          "date": "24 April 2022",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "New Features",
+              "items": [
+                "Vanilla Tweaks Data Pack added.",
+                "Vanilla Tweaks Crafting Data Pack added."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Fixes",
+              "items": [
+                "Updated map to 1.18.2.",
+                "Updated Vanilla Tweaks Resource Pack to 1.18.2.",
+                "Updated TreeCapitator to 1.18.2."
+              ]
+            },
+            {
+              "id": "sec-3",
+              "title": "Datapack / Resource Pack Log",
+              "items": [
+                "3D Amethyst Crystals, Glow Lichen, Doors, Trapdoors and Bookshelves.",
+                "Removed Java Edition title from GUI.",
+                "Scoreboards: Track Raw Statistics and Track Statistics.",
+                "Teleportation: Spawn and Homes.",
+                "Crafting QoL: Rotten Flesh to Leather, More Bark, More Stairs and More Bricks.",
+                "Datapacks are pre-installed; resource packs are included in the ZIP and need to be placed in the resource pack folder."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-2",
+          "version": "Update 1.3.1 — Patch Update",
+          "date": "18 April 2022",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Vanilla Tweaks resource pack updated to 1.18.",
+                "TreeCapitator datapack updated to 1.18."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-3",
+          "version": "Update 1.3 — Patch Update",
+          "date": "1 December 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Updated map to 1.18."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Changes",
+              "items": [
+                "Vanilla Tweaks datapack removed temporarily, planned to return later."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-4",
+          "version": "Update 1.2 — Quality of Life Update",
+          "date": "20 July 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "New Features",
+              "items": [
+                "Shulker Box Swapper.",
+                "Armor Stand Case.",
+                "All workplaces added.",
+                "Enchanting Table area.",
+                "Beacon.",
+                "Two new animal pens: pigs and chickens.",
+                "Automatic cactus, sugar cane and melon/pumpkin farms.",
+                "Semi-automatic wheat/beetroot/carrot/potato farm.",
+                "Easter egg teasing the next update."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Changes",
+              "items": [
+                "Revamped underground area, main floor and animal pens.",
+                "Removed all non-automatic farms.",
+                "Removed a large amount of trees and all dirt paths."
+              ]
+            },
+            {
+              "id": "sec-3",
+              "title": "Fixes",
+              "items": [
+                "World spawn moved to the base.",
+                "Compatibility with 1.17.1."
+              ]
+            },
+            {
+              "id": "sec-4",
+              "title": "Resource Pack",
+              "items": [
+                "Added 3D Chains, Pointed Dripstone, Items, Lily Pads and Vines.",
+                "Replaced borderless glass variants with clean glass variants.",
+                "Added Smoother Font."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-5",
+          "version": "Update 1.1",
+          "date": "23 June 2021",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "New Additions",
+              "items": [
+                "Two animal pens: cows and sheep.",
+                "Super Smelter.",
+                "Water wall in the Super Smelter room.",
+                "Sugar cane farm."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Changes",
+              "items": [
+                "Removed special-place coordinates sign.",
+                "Resized wheat/pumpkin/melon farm.",
+                "Extended outside area with pens and sugar cane farm.",
+                "Removed old furnace stations and all scoreboards."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 6
+    },
+    {
+      "id": "ultimate-survival-base-java",
+      "title": "Ultimate Survival Base",
+      "slug": "ultimate-survival-base-java",
+      "edition": "Java",
+      "mapVersion": "2.0",
+      "minecraft": "1.21.11",
+      "credits": "Resco10",
+      "description": "A large survival base with rooms for crafting, storage, enchanting, trading, portals, farms and more.",
+      "download": "https://www.mediafire.com/file/jyvi54s01ozsvae/Ultimate_Survival_Base_-_Java_-_V2.rar/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19416932-untitled_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398336_xl.webp",
+            "caption": "Back Door of the Base"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398347_xl.webp",
+            "caption": "Armory"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398346_xl.webp",
+            "caption": "Super Smelter Room"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398338_xl.webp",
+            "caption": "Storage Room First Floor"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398337_xl.webp",
+            "caption": "Storage Room Second Floor"
+          },
+          {
+            "id": "img-6",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358649_xl.webp",
+            "caption": "Nether Room"
+          },
+          {
+            "id": "img-7",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358651_xl.webp",
+            "caption": "End Room"
+          },
+          {
+            "id": "img-8",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398343_xl.webp",
+            "caption": "Crop Farm Area"
+          },
+          {
+            "id": "img-9",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398345_xl.webp",
+            "caption": "Crafting Room"
+          },
+          {
+            "id": "img-10",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358642_xl.webp",
+            "caption": "Trading Hall 1"
+          },
+          {
+            "id": "img-11",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358654_xl.webp",
+            "caption": "Trading Hall 2"
+          },
+          {
+            "id": "img-12",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358652_xl.webp",
+            "caption": "Trading Hall 3"
+          },
+          {
+            "id": "img-13",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358664_xl.webp",
+            "caption": "Enchanting Table Room"
+          },
+          {
+            "id": "img-14",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398341_xl.webp",
+            "caption": "Stairs Leading to Second Floor"
+          }
+        ],
+        "videos": [
+          {
+            "id": "vid-1",
+            "url": "https://www.youtube.com/watch?v=NXanYrGeG98",
+            "title": ""
+          },
+          {
+            "id": "vid-2",
+            "url": "https://www.youtube.com/watch?v=lso1yAXr2ns",
+            "title": ""
+          }
+        ]
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 2,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19416932-untitled_l.jpg",
+        "cardDescription": "A large survival base with rooms for crafting, storage, enchanting, trading, portals, farms and more."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Super Smelter",
+          "description": "Super Smelter room."
+        },
+        {
+          "id": "feat-2",
+          "title": "Armory",
+          "description": "Armory with storage for weapons, tools and armor."
+        },
+        {
+          "id": "feat-3",
+          "title": "Crafting Room",
+          "description": "Crafting room with the main crafting and utility tables."
+        },
+        {
+          "id": "feat-4",
+          "title": "Enchanting",
+          "description": "Enchanting room."
+        },
+        {
+          "id": "feat-5",
+          "title": "Trading Hall",
+          "description": "Villager trading area."
+        },
+        {
+          "id": "feat-6",
+          "title": "Fountain",
+          "description": "Central fountain."
+        },
+        {
+          "id": "feat-7",
+          "title": "End Room",
+          "description": "End Portal area with the Dragon Egg on display."
+        },
+        {
+          "id": "feat-8",
+          "title": "Nether Room",
+          "description": "Nether Portal area with themed decoration."
+        },
+        {
+          "id": "feat-9",
+          "title": "Storage Room",
+          "description": "Two-story storage room."
+        },
+        {
+          "id": "feat-10",
+          "title": "Farm Crops Room",
+          "description": "Pumpkin, melon, potato, carrot, beetroot and wheat farms."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update V2 — Ultimate Survival Base",
+          "date": "17 December 2025",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes",
+              "items": [
+                "Replaced the white building with a two-story storage room matching the main base.",
+                "Added a new rear entrance between the Armory and Crafting Room.",
+                "Repurposed the old storage room into a crop farm.",
+                "Redesigned the Crafting Room.",
+                "Expanded Armory storage from 7 to 14 double chests.",
+                "Replaced Leather Armor with Copper Armor and repositioned Chainmail Armor.",
+                "Added four paintings and more lantern lighting.",
+                "Rebuilt the fountain using Waxed Oxidized Copper.",
+                "Updated signs to newer versions."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Removed",
+              "items": [
+                "Secret area in the Enchanting Table Room.",
+                "Hidden chest/book used to open the secret area.",
+                "Carpets in the Armory, Super Smelter and Crafting Room."
+              ]
+            },
+            {
+              "id": "sec-3",
+              "title": "Notes",
+              "items": [
+                "A nearby Woodland Mansion was damaged early in the map’s history and can still be explored.",
+                "The map originated on Bedrock; some converted Java chunks may look unusual."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-2",
+          "version": "Hotfix V1.1",
+          "date": "11 May 2025",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes",
+              "items": [
+                "Updated to Minecraft Java Edition 1.21.5.",
+                "Removed signs from the white building; iron doors remain."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 2
+    },
+    {
+      "id": "ultimate-survival-base-bedrock",
+      "title": "Ultimate Survival Base",
+      "slug": "ultimate-survival-base-bedrock",
+      "edition": "Bedrock",
+      "mapVersion": "2.0",
+      "minecraft": "1.21.131",
+      "credits": "Resco10",
+      "description": "The Bedrock version of Ultimate Survival Base, with the same main rooms, farms and features.",
+      "download": "https://www.mediafire.com/file/w17730iw97ciq6v/Ultimate_Survival_Base_-_Bedrock_-_V2.mcworld/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19416932-untitled_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398336_xl.webp",
+            "caption": "Back Door of the Base"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398347_xl.webp",
+            "caption": "Armory"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398346_xl.webp",
+            "caption": "Super Smelter Room"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398338_xl.webp",
+            "caption": "Storage Room First Floor"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398337_xl.webp",
+            "caption": "Storage Room Second Floor"
+          },
+          {
+            "id": "img-6",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358649_xl.webp",
+            "caption": "Nether Room"
+          },
+          {
+            "id": "img-7",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358651_xl.webp",
+            "caption": "End Room"
+          },
+          {
+            "id": "img-8",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398343_xl.webp",
+            "caption": "Crop Farm Area"
+          },
+          {
+            "id": "img-9",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398345_xl.webp",
+            "caption": "Crafting Room"
+          },
+          {
+            "id": "img-10",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358642_xl.webp",
+            "caption": "Trading Hall 1"
+          },
+          {
+            "id": "img-11",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358654_xl.webp",
+            "caption": "Trading Hall 2"
+          },
+          {
+            "id": "img-12",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358652_xl.webp",
+            "caption": "Trading Hall 3"
+          },
+          {
+            "id": "img-13",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/193/18358664_xl.webp",
+            "caption": "Enchanting Table Room"
+          },
+          {
+            "id": "img-14",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19398341_xl.webp",
+            "caption": "Stairs Leading to Second Floor"
+          }
+        ],
+        "videos": [
+          {
+            "id": "vid-1",
+            "url": "https://www.youtube.com/watch?v=NXanYrGeG98",
+            "title": ""
+          },
+          {
+            "id": "vid-2",
+            "url": "https://www.youtube.com/watch?v=lso1yAXr2ns",
+            "title": ""
+          }
+        ]
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 1,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2025/193/19416932-untitled_l.jpg",
+        "cardDescription": "The Bedrock version of Ultimate Survival Base, with the same main rooms, farms and features."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Super Smelter",
+          "description": "Super Smelter room."
+        },
+        {
+          "id": "feat-2",
+          "title": "Armory",
+          "description": "Armory with storage for weapons, tools and armor."
+        },
+        {
+          "id": "feat-3",
+          "title": "Crafting Room",
+          "description": "Crafting room with the main crafting and utility tables."
+        },
+        {
+          "id": "feat-4",
+          "title": "Enchanting",
+          "description": "Enchanting room."
+        },
+        {
+          "id": "feat-5",
+          "title": "Trading Hall",
+          "description": "Villager trading area."
+        },
+        {
+          "id": "feat-6",
+          "title": "Fountain",
+          "description": "Central fountain."
+        },
+        {
+          "id": "feat-7",
+          "title": "End Room",
+          "description": "End Portal area with the Dragon Egg on display."
+        },
+        {
+          "id": "feat-8",
+          "title": "Nether Room",
+          "description": "Nether Portal area with themed decoration."
+        },
+        {
+          "id": "feat-9",
+          "title": "Storage Room",
+          "description": "Two-story storage room."
+        },
+        {
+          "id": "feat-10",
+          "title": "Farm Crops Room",
+          "description": "Pumpkin, melon, potato, carrot, beetroot and wheat farms."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update V2 — Ultimate Survival Base",
+          "date": "17 December 2025",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes",
+              "items": [
+                "Replaced the white building with a two-story storage room matching the main base.",
+                "Added a new rear entrance between the Armory and Crafting Room.",
+                "Repurposed the old storage room into a crop farm.",
+                "Redesigned the Crafting Room.",
+                "Expanded Armory storage from 7 to 14 double chests.",
+                "Replaced Leather Armor with Copper Armor and repositioned Chainmail Armor.",
+                "Added four paintings and more lantern lighting.",
+                "Rebuilt the fountain using Waxed Oxidized Copper.",
+                "Updated signs to newer versions."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "Removed",
+              "items": [
+                "Secret area in the Enchanting Table Room.",
+                "Hidden chest/book used to open the secret area.",
+                "Carpets in the Armory, Super Smelter and Crafting Room."
+              ]
+            },
+            {
+              "id": "sec-3",
+              "title": "Notes",
+              "items": [
+                "A nearby Woodland Mansion was damaged early in the map’s history and can still be explored.",
+                "The map originated on Bedrock; some converted Java chunks may look unusual."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-2",
+          "version": "Hotfix V1.1",
+          "date": "11 May 2025",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes",
+              "items": [
+                "Updated to Minecraft Bedrock Edition 1.21.80.",
+                "Removed signs from the white building; iron doors remain."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 3
+    },
+    {
+      "id": "village-base",
+      "title": "Village Base",
+      "slug": "village-base",
+      "edition": "Java",
+      "mapVersion": "2.0",
+      "minecraft": "1.21.1",
+      "credits": "TristanVel8 (creator & cobuilder)",
+      "description": "A survival village turned into a large base with farms, storage, themed builds and more.",
+      "download": "https://www.mediafire.com/file/qi0zhjd7yx0199o/Village_Base_V2.0.zip/file",
+      "status": "Published",
+      "media": {
+        "banner": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081242-villagebaselogo_l.jpg",
+        "screenshots": [
+          {
+            "id": "img-1",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081363-screenshot_xl.webp",
+            "caption": "Aerial View of the new V2.0 Map"
+          },
+          {
+            "id": "img-2",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081346-screenshot_xl.webp",
+            "caption": "New Sugar Cane Pond and New Chorus Fruit Patch"
+          },
+          {
+            "id": "img-3",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081348-screenshot_xl.webp",
+            "caption": "The Castle on the Hill"
+          },
+          {
+            "id": "img-4",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081351-screenshot_xl.webp",
+            "caption": "Interior of the Castle Bottom Floor"
+          },
+          {
+            "id": "img-5",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081353-screenshot_xl.webp",
+            "caption": "New Turtle Pen"
+          },
+          {
+            "id": "img-6",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890816_xl.webp",
+            "caption": "Map of the Place"
+          },
+          {
+            "id": "img-7",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890798_xl.webp",
+            "caption": "Main House Enchanting Table House"
+          },
+          {
+            "id": "img-8",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890799_xl.webp",
+            "caption": "Warehouse Storage Room with Minecart Rail"
+          },
+          {
+            "id": "img-9",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890801_xl.webp",
+            "caption": "Sugar Cane Farm"
+          },
+          {
+            "id": "img-10",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890802_xl.webp",
+            "caption": "Super Smelter"
+          },
+          {
+            "id": "img-11",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890803_xl.webp",
+            "caption": "Villager House"
+          },
+          {
+            "id": "img-12",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890804_xl.webp",
+            "caption": "Creeper Farm"
+          },
+          {
+            "id": "img-13",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890805_xl.webp",
+            "caption": "Main House Farm"
+          },
+          {
+            "id": "img-14",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890806_xl.webp",
+            "caption": "Iron Farm"
+          },
+          {
+            "id": "img-15",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890807_xl.webp",
+            "caption": "Brewing House"
+          },
+          {
+            "id": "img-16",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890810_xl.webp",
+            "caption": "Beacons"
+          },
+          {
+            "id": "img-17",
+            "url": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/17890813_xl.webp",
+            "caption": "Nether Wart Farm in Main House Attic"
+          }
+        ],
+        "videos": []
+      },
+      "grid": {
+        "visible": true,
+        "featured": false,
+        "order": 3,
+        "cardImage": "https://static.planetminecraft.com/files/image/minecraft/project/2024/944/18081242-villagebaselogo_l.jpg",
+        "cardDescription": "A survival village turned into a large base with farms, storage, themed builds and more."
+      },
+      "features": [
+        {
+          "id": "feat-1",
+          "title": "Warehouse",
+          "description": "Large storage area with minecart access."
+        },
+        {
+          "id": "feat-2",
+          "title": "Enchanting House",
+          "description": "Enchanting area."
+        },
+        {
+          "id": "feat-3",
+          "title": "Villager House",
+          "description": "Large villager area."
+        },
+        {
+          "id": "feat-4",
+          "title": "Iron Farm",
+          "description": "Iron farm."
+        },
+        {
+          "id": "feat-5",
+          "title": "Skeleton Farm",
+          "description": "Mob farm behind the mountain near the emerald pixel art."
+        },
+        {
+          "id": "feat-6",
+          "title": "Crop & Sugar Cane",
+          "description": "Several crop and animal farms."
+        },
+        {
+          "id": "feat-7",
+          "title": "Super Smelter",
+          "description": "Super Smelter."
+        },
+        {
+          "id": "feat-8",
+          "title": "Creeper Farm",
+          "description": "Creeper farm."
+        },
+        {
+          "id": "feat-9",
+          "title": "Castle on the Hill",
+          "description": "Tuff Tower, home of Lord Tuff."
+        },
+        {
+          "id": "feat-10",
+          "title": "Fishing Dock",
+          "description": "Mr. Salvu the Fishercow."
+        }
+      ],
+      "changelog": [
+        {
+          "id": "change-1",
+          "version": "Update V2.0 — Village Base",
+          "date": "",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Changes",
+              "items": [
+                "Removed Welcome and Info sign.",
+                "Map on sign is now slightly larger.",
+                "Emerald pixel art revamped.",
+                "Fixed Snow Golem Farm.",
+                "Copper Doors are now fully oxidized.",
+                "Changed certain names.",
+                "Updated map to Minecraft 1.21.1."
+              ]
+            },
+            {
+              "id": "sec-2",
+              "title": "New Features",
+              "items": [
+                "Castle on the Hill / Tuff Tower — meet Lord Tuff.",
+                "New Sugar Cane Pond behind the mushroom area.",
+                "Chorus Fruit area.",
+                "New pathway to Skeleton Farm.",
+                "More nature around the village: trees, grass and flowers."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-2",
+          "version": "Hotfix V1.1",
+          "date": "",
+          "sections": [
+            {
+              "id": "sec-1",
+              "title": "Fixes",
+              "items": [
+                "Changed certain names on animals with name tags."
+              ]
+            }
+          ]
+        }
+      ],
+      "latestRank": 7
+    }
+  ],
+  "devUpdates": []
+}
