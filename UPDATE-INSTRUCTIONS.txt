@@ -1,0 +1,10 @@
+RESCO UPDATE PACKAGE
+From baseline: V6.1
+To version: V6.0
+
+23 changed/new file(s) are included in this ZIP.
+0 file(s) should be deleted from GitHub manually.
+
+NO FILES NEED TO BE DELETED.
+
+Upload the included files preserving their folder paths.

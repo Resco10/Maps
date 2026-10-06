@@ -1,0 +1,30 @@
+{
+  "fromVersion": "V6.1",
+  "toVersion": "V6.0",
+  "changed": [
+    "404.html",
+    "README.md",
+    "about.html",
+    "bedrock.html",
+    "changelogs/mountain-house-2.html",
+    "changelogs/mountain-house.html",
+    "changelogs/starter-survival.html",
+    "changelogs/survive-to-glory.html",
+    "changelogs/ultimate-survival-base-bedrock.html",
+    "changelogs/ultimate-survival-base-java.html",
+    "changelogs/village-base.html",
+    "devupdates.html",
+    "index.html",
+    "java.html",
+    "maps/mountain-house-2.html",
+    "maps/mountain-house.html",
+    "maps/starter-survival.html",
+    "maps/survive-to-glory.html",
+    "maps/ultimate-survival-base-bedrock.html",
+    "maps/ultimate-survival-base-java.html",
+    "maps/village-base.html",
+    "resco-project.json",
+    "site-data.js"
+  ],
+  "deleted": []
+}

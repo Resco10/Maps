@@ -1,8 +1,8 @@
 {
   "publicExport": true,
   "editor": "RESCO Offline Editor V5.10",
-  "version": "V5.11",
-  "generatedAt": "2026-10-06T21:08:06.597Z",
+  "version": "V6.0",
+  "generatedAt": "2026-10-06T21:26:04.508Z",
   "settings": {
     "siteName": "RESCO",
     "siteSubtitle": "Minecraft maps & projects.",
@@ -1506,5 +1506,36 @@
       "latestRank": 7
     }
   ],
-  "devUpdates": []
+  "devUpdates": [
+    {
+      "id": "post-mux4y1req7qo4",
+      "title": "New Website out now!",
+      "date": "2026-10-06",
+      "status": "Published",
+      "type": "Announcements",
+      "featuredImage": "assets/images/generated/dev-1-featured-1.webp",
+      "summary": "New Website for our maps is now available!",
+      "body": "Our new website is now available!\nDownload our maps now on our brand new website!",
+      "images": [
+        {
+          "id": "img-mux6ijejgjh1f",
+          "url": "assets/images/generated/dev-1-image-1-2.webp",
+          "caption": "Java Edition Maps Page"
+        },
+        {
+          "id": "img-mux6is19xnjw4",
+          "url": "assets/images/generated/dev-1-image-2-3.webp",
+          "caption": "Bedrock Edition Maps Page"
+        }
+      ],
+      "videos": [],
+      "links": [],
+      "pinned": false,
+      "order": 2,
+      "labels": [
+        "Announcements",
+        "Website"
+      ]
+    }
+  ]
 }
