@@ -31,7 +31,7 @@ button{font:inherit}
 .menu-btn{display:none;background:var(--yellow);color:var(--ink);border:0;padding:10px 14px;font-weight:900;text-transform:uppercase}
 
 /* Typography */
-.eyebrow{display:inline-block;color:var(--ink);background:var(--yellow);padding:6px 9px;font-family:"Courier New",monospace;font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em}
+.eyebrow{display:inline-block;color:var(--ink);background:var(--yellow);padding:6px 9px;font-family:"Courier New",Courier,monospace;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;line-height:1.15}
 .hero h1,.page-hero h1,.section h2{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;letter-spacing:.01em}
 .hero h1,.page-hero h1{font-size:clamp(3.2rem,8vw,6.4rem);line-height:.9;margin:20px 0 18px}
 .hero p,.page-hero p{font-size:1.08rem;max-width:720px;color:#3f3d37}
@@ -48,8 +48,9 @@ button{font:inherit}
 .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;border:2px solid var(--ink);background:transparent;color:var(--ink);font-weight:900;text-transform:uppercase;letter-spacing:.035em;font-size:.84rem;transition:.15s}
 .btn:hover{background:var(--ink);color:var(--white);transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--yellow)}
-.btn-primary{background:var(--yellow);color:var(--ink)}
-.btn-secondary{background:var(--paper)}
+.btn-primary{background:transparent;color:var(--ink)}
+.btn-secondary{background:transparent}
+.btn-primary:hover,.btn-secondary:hover{background:var(--yellow);color:var(--ink);border-color:var(--ink)}
 
 /* Sections */
 .section{padding:58px 0}
@@ -64,7 +65,7 @@ button{font:inherit}
 .card-img img{width:100%;height:100%;object-fit:cover}
 .card-body{padding:18px}
 .chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
-.chip{font-family:"Courier New",monospace;font-size:.72rem;font-weight:900;padding:4px 7px;background:var(--yellow);color:var(--ink);border:1px solid var(--ink);text-transform:uppercase}
+.chip{font-family:"Courier New",Courier,monospace;font-size:.76rem;font-weight:700;padding:4px 7px;background:var(--yellow);color:var(--ink);border:1px solid var(--ink);text-transform:uppercase;letter-spacing:.03em;line-height:1.15}
 .chip.java{background:#dff3df;color:#185f24;border-color:#2d8739}
 .chip.blue{background:#dbeaff;color:#143e70;border-color:#3977c5}
 .chip.gold{background:#fff1ad}
@@ -99,8 +100,8 @@ button{font:inherit}
 .timeline{display:grid;gap:22px}
 .update{background:var(--white);border:2px solid var(--ink);padding:22px;box-shadow:5px 5px 0 #d7d0be}
 .update h2{margin:0 0 6px;font-family:"Arial Black",Arial,sans-serif;font-size:1.35rem}
-.update .date{color:var(--muted);font-family:"Courier New",monospace;font-size:.88rem;margin-bottom:14px}
-.update h3{font-size:.86rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink);background:var(--yellow);display:inline-block;padding:4px 7px;margin:18px 0 7px}
+.update .date{color:var(--muted);font-family:Arial,Helvetica,sans-serif;font-size:.88rem;margin-bottom:14px}
+.update h3{font-family:"Courier New",Courier,monospace;font-size:.88rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink);background:var(--yellow);display:inline-block;padding:4px 7px;margin:18px 0 7px;line-height:1.15}
 .update ul{margin:7px 0 0;padding-left:20px}
 
 /* Full artwork, never cropped */
@@ -165,7 +166,7 @@ button{font:inherit}
 .welcome-card h3{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;font-size:2rem;line-height:1;margin:18px 0 12px}
 .welcome-card p{color:var(--muted);margin:0 0 28px;max-width:32ch}
 .welcome-card b{margin-top:auto;text-transform:uppercase;font-size:.82rem;letter-spacing:.04em;z-index:1}
-.welcome-card-kicker{font-family:"Courier New",monospace;font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.09em;padding:5px 7px;border:1px solid var(--ink)}
+.welcome-card-kicker{font-family:"Courier New",Courier,monospace;font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;line-height:1.15;padding:5px 7px;border:1px solid var(--ink)}
 .java-card .welcome-card-kicker{background:#dff3df;color:#185f24;border-color:#2d8739}
 .bedrock-card .welcome-card-kicker{background:#dbeaff;color:#143e70;border-color:#3977c5}
 .about-card .welcome-card-kicker{background:var(--yellow)}
@@ -185,7 +186,7 @@ button{font:inherit}
 .about-story p:last-child{margin-bottom:0}
 .about-facts{display:grid;gap:12px}
 .about-fact{background:var(--ink);color:var(--white);border-left:8px solid var(--yellow);padding:18px 20px}
-.about-fact span{display:block;font-family:"Courier New",monospace;text-transform:uppercase;letter-spacing:.07em;font-size:.73rem;color:#bdbdbd;margin-bottom:3px}
+.about-fact span{display:block;font-family:Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.07em;font-size:.73rem;color:#bdbdbd;margin-bottom:3px}
 .about-fact strong{font-size:1.14rem}
 @media(max-width:900px){.welcome-mark{grid-template-columns:150px 1fr}.welcome-grid{grid-template-columns:1fr}.about-hero-grid,.about-layout{grid-template-columns:1fr}.about-logo{justify-self:start;max-width:240px}.home-about-inner{align-items:flex-start;flex-direction:column}}
 @media(max-width:620px){.welcome-hero{padding-top:44px}.welcome-mark{grid-template-columns:1fr;padding:20px}.welcome-mark img{max-width:210px}.welcome-mark-copy strong{font-size:2.5rem}.welcome-card{min-height:220px}.about-story{padding:22px}}
@@ -202,7 +203,7 @@ button{font:inherit}
 .media-card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--yellow)}
 .media-icon{width:68px;height:68px;display:grid;place-items:center;background:var(--ink);color:var(--yellow)}
 .media-icon svg{width:35px;height:35px;fill:currentColor}
-.media-kicker{font-family:"Courier New",monospace;text-transform:uppercase;letter-spacing:.08em;font-weight:900;font-size:.72rem;color:var(--muted)}
+.media-kicker{font-family:Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-weight:900;font-size:.72rem;color:var(--muted)}
 .media-card h2{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;font-size:2rem;line-height:1;margin:6px 0 10px}
 .media-card p{margin:0 0 16px;color:var(--muted)}
 .media-card b{text-transform:uppercase;font-size:.8rem;letter-spacing:.04em}
@@ -213,7 +214,7 @@ button{font:inherit}
 .dev-placeholder{background:var(--ink);color:var(--white);border-bottom:10px solid var(--yellow);padding:40px;box-shadow:8px 8px 0 #d7d0be}
 .dev-placeholder h2{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;font-size:clamp(2rem,4vw,3.2rem);margin:14px 0 12px}
 .dev-placeholder>p{color:#cfcfcf;max-width:760px;margin:0 0 28px}
-.dev-status{display:inline-block;background:var(--yellow);color:var(--ink);padding:6px 9px;font-family:"Courier New",monospace;text-transform:uppercase;font-weight:900;letter-spacing:.08em;font-size:.72rem}
+.dev-status{display:inline-block;background:var(--yellow);color:var(--ink);padding:6px 9px;font-family:"Courier New",Courier,monospace;text-transform:uppercase;font-weight:700;letter-spacing:.05em;font-size:.76rem;line-height:1.15}
 .dev-placeholder-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#444;border:1px solid #444}
 .dev-placeholder-grid>div{background:#181818;padding:18px}
 .dev-placeholder-grid strong{display:block;color:var(--yellow);margin-bottom:5px}
@@ -227,3 +228,159 @@ button{font:inherit}
 .header-social-icon svg{width:16px;height:16px;fill:currentColor;display:block;flex:0 0 auto}
 .header-social-icon:hover{background:#1b1b1b;color:var(--yellow);border-color:var(--yellow);transform:translateY(-1px)}
 @media(max-width:900px){.header-social{margin:8px 0 0;padding:14px 0 0;border-left:0;border-top:1px solid #333;justify-content:flex-start}.header-social-icon{width:40px;height:40px}.header-social-icon svg{width:19px;height:19px}}
+
+
+/* V5 theme settings */
+.theme-settings-btn{width:32px;height:32px;display:flex;align-items:center;justify-content:center;align-self:center;line-height:0;color:#fff;border:1px solid #3a3a3a;background:#1b1b1b;transition:.15s;padding:0;margin-left:14px;cursor:pointer;flex:0 0 32px}
+.theme-settings-btn svg{width:17px;height:17px;fill:currentColor;display:block;flex:0 0 auto}
+.theme-settings-btn:hover,.theme-settings-btn[aria-expanded="true"]{color:var(--yellow);border-color:var(--yellow);transform:translateY(-1px)}
+.theme-panel{position:fixed;z-index:70;top:88px;right:max(16px,calc((100vw - 1500px)/2 + 16px));width:min(360px,calc(100% - 28px));background:#fff;color:#101010;border:2px solid #101010;box-shadow:8px 8px 0 var(--yellow);padding:20px}
+.theme-panel[hidden]{display:none}
+.theme-panel-head{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #d2ccbc;padding-bottom:12px;margin-bottom:10px}
+.theme-panel-head strong{font-family:Impact,"Arial Black",sans-serif;text-transform:uppercase;font-size:1.7rem;letter-spacing:.02em}
+.theme-panel-close{width:34px;height:34px;border:1px solid #bfb9aa;background:#f3f1e8;color:#101010;font-weight:900;font-size:1.2rem;cursor:pointer}
+.theme-panel>p{margin:0 0 15px;color:#625e55;font-size:.92rem}
+.theme-options{display:grid;gap:9px}
+.theme-option{width:100%;display:grid;grid-template-columns:42px 1fr;gap:12px;align-items:center;text-align:left;border:1px solid #cbc4b4;background:#faf8f0;color:#101010;padding:10px;cursor:pointer;transition:.15s}
+.theme-option:hover{border-color:#101010}
+.theme-option[aria-checked="true"]{border:2px solid #101010;box-shadow:4px 4px 0 var(--yellow);padding:9px}
+.theme-option span:last-child{display:flex;flex-direction:column;gap:1px}
+.theme-option b{text-transform:uppercase;font-size:.86rem;letter-spacing:.04em}
+.theme-option small{color:#706b62;font-size:.78rem}
+.theme-swatch{width:38px;height:30px;border:1px solid #777;display:block;position:relative;overflow:hidden}
+.light-swatch{background:#f3f1e8}.light-swatch:after{content:"";position:absolute;right:0;top:0;width:11px;height:100%;background:#ffd100}
+.dark-swatch{background:#161616}.dark-swatch:after{content:"";position:absolute;right:0;top:0;width:11px;height:100%;background:#ffd100}
+.system-swatch{background:linear-gradient(90deg,#f3f1e8 0 50%,#161616 50% 100%)}.system-swatch:after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:#ffd100}
+
+/* V5 dark theme — deliberate RESCO palette, not a raw inversion */
+html[data-theme="dark"] body{background:#111;color:#f2f0e8}
+html[data-theme="dark"] .hero,html[data-theme="dark"] .page-hero{background:#151515;border-color:#363636}
+html[data-theme="dark"] .hero p,html[data-theme="dark"] .page-hero p{color:#c9c5ba}
+html[data-theme="dark"] .hero-grid>div:first-child:before{-webkit-text-stroke-color:rgba(255,255,255,.08)}
+html[data-theme="dark"] .welcome-mark{box-shadow:10px 10px 0 #050505}
+html[data-theme="dark"] .section+.section{border-color:#343434}
+html[data-theme="dark"] .section-head p,html[data-theme="dark"] .small{color:#aaa79e}
+html[data-theme="dark"] .intro-section{background:#181818}
+html[data-theme="dark"] .card,html[data-theme="dark"] .panel,html[data-theme="dark"] .welcome-card,html[data-theme="dark"] .about-story,html[data-theme="dark"] .shot,html[data-theme="dark"] .update{background:#1c1c1c;border-color:#444;box-shadow:5px 5px 0 #070707}
+html[data-theme="dark"] .card:hover,html[data-theme="dark"] .welcome-card:hover{box-shadow:8px 8px 0 var(--yellow)}
+html[data-theme="dark"] .card-img,html[data-theme="dark"] .shot figcaption{border-color:#444}
+html[data-theme="dark"] .card p,html[data-theme="dark"] .about-story p,html[data-theme="dark"] .media-card p{color:#bdb9ae}
+html[data-theme="dark"] .feature{background:#171717;border-color:#3b3b3b}
+html[data-theme="dark"] .feature-list,html[data-theme="dark"] .meta,html[data-theme="dark"] .meta-row{border-color:#3b3b3b}
+html[data-theme="dark"] .feature span,html[data-theme="dark"] .meta-row span:first-child{color:#aaa79e}
+html[data-theme="dark"] .btn{color:#f1eee5;border-color:#ded9cd;background:#191919}
+html[data-theme="dark"] .btn:hover{background:#f1eee5;color:#101010;border-color:#f1eee5}
+html[data-theme="dark"] .btn-primary{background:var(--yellow);color:#101010;border-color:#101010}
+html[data-theme="dark"] .btn-secondary{background:#191919}
+
+html[data-theme="dark"] .btn-primary,html[data-theme="dark"] .btn-secondary{background:#191919;color:#f1eee5;border-color:#ded9cd}
+html[data-theme="dark"] .btn-primary:hover,html[data-theme="dark"] .btn-secondary:hover{background:var(--yellow);color:#101010;border-color:#101010}
+html[data-theme="dark"] .notice{background:#2a250e;color:#f4df7a;border-color:var(--yellow)}
+html[data-theme="dark"] .shot figcaption{background:#181818;color:#ece9df}
+html[data-theme="dark"] .welcome-card p{color:#bdb9ae}
+html[data-theme="dark"] .welcome-card-kicker{border-color:#bbb}
+html[data-theme="dark"] .about-card .welcome-card-kicker{color:#101010}
+html[data-theme="dark"] .about-logo{border-color:#555;box-shadow:8px 8px 0 #050505}
+html[data-theme="dark"] .about-fact{background:#090909}
+html[data-theme="dark"] .about-fact span{color:#aaa}
+html[data-theme="dark"] .update .date{color:#aaa79e}
+html[data-theme="dark"] .content-list{color:#e5e1d7}
+html[data-theme="dark"] .theme-panel{background:#1b1b1b;color:#f2f0e8;border-color:#e7e1d4;box-shadow:8px 8px 0 var(--yellow)}
+html[data-theme="dark"] .theme-panel-head{border-color:#444}
+html[data-theme="dark"] .theme-panel-close{background:#272727;color:#f2f0e8;border-color:#555}
+html[data-theme="dark"] .theme-panel>p{color:#bbb7ac}
+html[data-theme="dark"] .theme-option{background:#202020;color:#f2f0e8;border-color:#4b4b4b}
+html[data-theme="dark"] .theme-option:hover,html[data-theme="dark"] .theme-option[aria-checked="true"]{border-color:#f0ede4}
+html[data-theme="dark"] .theme-option small{color:#aaa79e}
+html[data-theme="dark"] .dev-placeholder{box-shadow:8px 8px 0 #050505}
+
+@media(max-width:900px){
+  .theme-settings-btn{width:40px;height:40px;margin:14px 0 0;align-self:flex-start;flex-basis:40px}
+  .theme-settings-btn svg{width:19px;height:19px}
+  .theme-panel{top:92px;right:14px}
+}
+
+
+/* V5.6 Minecraft theme */
+.minecraft-swatch{background:linear-gradient(#4f9b3d 0 32%,#6f512f 32% 62%,#77756e 62% 100%)}
+.minecraft-swatch:after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:#ffd100}
+
+html[data-theme="minecraft"] body{background:#1f2b1c;color:#f4f1e8}
+html[data-theme="minecraft"] .site-header{background:#182317;border-bottom-color:#68a84b}
+html[data-theme="minecraft"] .nav-links a:hover,html[data-theme="minecraft"] .nav-links a.active{color:#9bd36a;border-bottom-color:#9bd36a}
+html[data-theme="minecraft"] .menu-btn{background:#68a84b;color:#101010}
+html[data-theme="minecraft"] .header-social-icon,html[data-theme="minecraft"] .theme-settings-btn{background:#202b1d;border-color:#455342}
+html[data-theme="minecraft"] .header-social-icon:hover,html[data-theme="minecraft"] .theme-settings-btn:hover,html[data-theme="minecraft"] .theme-settings-btn[aria-expanded="true"]{color:#9bd36a;border-color:#9bd36a}
+
+html[data-theme="minecraft"] .hero,html[data-theme="minecraft"] .page-hero{background:#263724;border-color:#42523f}
+html[data-theme="minecraft"] .hero p,html[data-theme="minecraft"] .page-hero p{color:#d2d7ca}
+html[data-theme="minecraft"] .hero-grid>div:first-child:before{-webkit-text-stroke-color:rgba(155,211,106,.12)}
+html[data-theme="minecraft"] .intro-section{background:#2b3a27}
+html[data-theme="minecraft"] .section+.section{border-color:#465344}
+html[data-theme="minecraft"] .section-head p,html[data-theme="minecraft"] .small{color:#c3c8bd}
+
+html[data-theme="minecraft"] .card,
+html[data-theme="minecraft"] .panel,
+html[data-theme="minecraft"] .welcome-card,
+html[data-theme="minecraft"] .about-story,
+html[data-theme="minecraft"] .shot,
+html[data-theme="minecraft"] .update{background:#d9c99e;color:#201d16;border-color:#5a4934;box-shadow:5px 5px 0 #11170f}
+html[data-theme="minecraft"] .card:hover,html[data-theme="minecraft"] .welcome-card:hover{box-shadow:8px 8px 0 #68a84b}
+html[data-theme="minecraft"] .card p,
+html[data-theme="minecraft"] .about-story p,
+html[data-theme="minecraft"] .welcome-card p,
+html[data-theme="minecraft"] .media-card p{color:#514837}
+html[data-theme="minecraft"] .card-img,html[data-theme="minecraft"] .shot figcaption{border-color:#6c5b42}
+html[data-theme="minecraft"] .shot figcaption{background:#c8b98f;color:#241f16}
+
+html[data-theme="minecraft"] .feature{background:#cabb91;border-color:#79684e;color:#221e17}
+html[data-theme="minecraft"] .feature-list,html[data-theme="minecraft"] .meta,html[data-theme="minecraft"] .meta-row{border-color:#79684e}
+html[data-theme="minecraft"] .feature span,html[data-theme="minecraft"] .meta-row span:first-child{color:#5b513f}
+html[data-theme="minecraft"] .content-list{color:#282219}
+
+html[data-theme="minecraft"] .eyebrow,
+html[data-theme="minecraft"] .about-card .welcome-card-kicker{background:#68a84b;color:#0f160d}
+html[data-theme="minecraft"] .java-card .welcome-card-kicker{background:#6fb657;color:#12210f;border-color:#315f26}
+html[data-theme="minecraft"] .bedrock-card .welcome-card-kicker{background:#7f8f98;color:#10222d;border-color:#455a66}
+html[data-theme="minecraft"] .chip{background:#68a84b;color:#111b0e;border-color:#243a1e}
+html[data-theme="minecraft"] .chip.java{background:#6fb657;color:#10220d;border-color:#315f26}
+html[data-theme="minecraft"] .chip.blue{background:#718a98;color:#0d1b24;border-color:#334955}
+html[data-theme="minecraft"] .chip.gold{background:#d7b94a;color:#261f0b;border-color:#68591e}
+
+html[data-theme="minecraft"] .btn,
+html[data-theme="minecraft"] .btn-primary,
+html[data-theme="minecraft"] .btn-secondary{background:#263324;color:#f1efe5;border-color:#8a9b80}
+html[data-theme="minecraft"] .btn:hover,
+html[data-theme="minecraft"] .btn-primary:hover,
+html[data-theme="minecraft"] .btn-secondary:hover{background:#68a84b;color:#10200d;border-color:#68a84b;box-shadow:4px 4px 0 #382b1d}
+html[data-theme="minecraft"] .notice{background:#59472a;color:#f7edc8;border-color:#c59b45}
+
+html[data-theme="minecraft"] .welcome-mark{background:#172115;border-bottom-color:#68a84b;box-shadow:10px 10px 0 #0d130c}
+html[data-theme="minecraft"] .welcome-mark-copy strong{color:#9bd36a}
+html[data-theme="minecraft"] .home-about-strip{background:#172115;border-top-color:#68a84b!important}
+html[data-theme="minecraft"] .home-about-inner p{color:#c8d1c2}
+html[data-theme="minecraft"] .about-logo{border-color:#42523f;box-shadow:8px 8px 0 #10170e}
+html[data-theme="minecraft"] .about-fact{background:#1a2518;border-left-color:#68a84b}
+html[data-theme="minecraft"] .about-fact span{color:#aeb8aa}
+html[data-theme="minecraft"] .update .date{color:#5e533f}
+html[data-theme="minecraft"] .update h3{background:#68a84b;color:#111b0e}
+
+html[data-theme="minecraft"] .footer{background:#172115;border-top-color:#68a84b;color:#d2d8cf}
+html[data-theme="minecraft"] .footer .small{color:#aeb8aa}
+html[data-theme="minecraft"] .social-icon{background:#22301f;border-color:#42523f}
+html[data-theme="minecraft"] .social-icon:hover{color:#9bd36a;border-color:#9bd36a;background:#22301f}
+
+html[data-theme="minecraft"] .theme-panel{background:#243220;color:#f2f0e8;border-color:#7d936f;box-shadow:8px 8px 0 #68a84b}
+html[data-theme="minecraft"] .theme-panel-head{border-color:#4a5a44}
+html[data-theme="minecraft"] .theme-panel-close{background:#33412e;color:#f2f0e8;border-color:#61705a}
+html[data-theme="minecraft"] .theme-panel>p{color:#c7cdc2}
+html[data-theme="minecraft"] .theme-option{background:#2d3b29;color:#f2f0e8;border-color:#50604a}
+html[data-theme="minecraft"] .theme-option:hover,html[data-theme="minecraft"] .theme-option[aria-checked="true"]{border-color:#9bd36a}
+html[data-theme="minecraft"] .theme-option[aria-checked="true"]{box-shadow:4px 4px 0 #68a84b}
+html[data-theme="minecraft"] .theme-option small{color:#bec7b8}
+
+html[data-theme="minecraft"] .dev-placeholder{background:#172115;border-bottom-color:#68a84b;box-shadow:8px 8px 0 #0d130c}
+html[data-theme="minecraft"] .dev-placeholder-grid{background:#4a5a44;border-color:#4a5a44}
+html[data-theme="minecraft"] .dev-placeholder-grid>div{background:#22301f}
+html[data-theme="minecraft"] .dev-placeholder-grid strong{color:#9bd36a}
+html[data-theme="minecraft"] .dev-status{background:#68a84b;color:#111b0e}

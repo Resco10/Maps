@@ -21,3 +21,7 @@ Version: V2 — Home refresh, About page and Java tag update.
 
 ## V4 test build
 Adds Media, social footer links, and a DevUpdates placeholder page.
+
+
+## V5
+Adds a persistent Theme setting (Light, Dark, or System) from the header cog.
