@@ -1,10 +1,13 @@
 RESCO UPDATE PACKAGE
-From baseline: V6.1
-To version: V6.0
+From baseline: V6.0
+To version: V6.1
 
-23 changed/new file(s) are included in this ZIP.
-0 file(s) should be deleted from GitHub manually.
+26 changed/new file(s) are included in this ZIP.
+3 file(s) should be deleted from GitHub manually.
 
-NO FILES NEED TO BE DELETED.
+DELETE THESE FILES FROM THE REPOSITORY:
+- assets/images/generated/dev-1-featured-1.webp
+- assets/images/generated/dev-1-image-1-2.webp
+- assets/images/generated/dev-1-image-2-3.webp
 
 Upload the included files preserving their folder paths.

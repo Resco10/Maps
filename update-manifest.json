@@ -1,10 +1,13 @@
 {
-  "fromVersion": "V6.1",
-  "toVersion": "V6.0",
+  "fromVersion": "V6.0",
+  "toVersion": "V6.1",
   "changed": [
     "404.html",
     "README.md",
     "about.html",
+    "assets/images/generated/devupdate-1-featured-1.webp",
+    "assets/images/generated/devupdate-1-image-1-2.webp",
+    "assets/images/generated/devupdate-1-image-2-3.webp",
     "bedrock.html",
     "changelogs/mountain-house-2.html",
     "changelogs/mountain-house.html",
@@ -26,5 +29,9 @@
     "resco-project.json",
     "site-data.js"
   ],
-  "deleted": []
+  "deleted": [
+    "assets/images/generated/dev-1-featured-1.webp",
+    "assets/images/generated/dev-1-image-1-2.webp",
+    "assets/images/generated/dev-1-image-2-3.webp"
+  ]
 }
