@@ -1,6 +1,6 @@
 window.RESCO_SITE_DATA = {
-  "version": "V6.1",
-  "generatedAt": "2026-10-06T21:33:27.220Z",
+  "version": "V6.2",
+  "generatedAt": "2026-10-06T21:40:45.594Z",
   "settings": {
     "siteName": "RESCO",
     "siteSubtitle": "Minecraft maps & projects.",
@@ -1507,13 +1507,13 @@ window.RESCO_SITE_DATA = {
   "devUpdates": [
     {
       "id": "post-mux4y1req7qo4",
-      "title": "New Website out now!",
+      "title": "NEW WEBSITE",
       "date": "2026-10-06",
       "status": "Published",
       "type": "Announcements",
       "featuredImage": "assets/images/generated/devupdate-1-featured-1.webp",
-      "summary": "New Website for our maps is now available!",
-      "body": "Our new website is now available!\nDownload our maps now on our brand new website!",
+      "summary": "New Website for my maps is now available!",
+      "body": "Introducing, RESCO!\nMy all new website to find all my maps is now available! \nCheck it out in the screenshots below and also explore the rest via the link!\n\nThank You and enjoy!",
       "images": [
         {
           "id": "img-mux6ijejgjh1f",
@@ -1527,7 +1527,13 @@ window.RESCO_SITE_DATA = {
         }
       ],
       "videos": [],
-      "links": [],
+      "links": [
+        {
+          "id": "link-mux7cst9yjwcw",
+          "label": "Explore the new website!",
+          "url": "https://resco10.github.io/Maps/"
+        }
+      ],
       "pinned": false,
       "order": 2,
       "labels": [

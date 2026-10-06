@@ -498,3 +498,36 @@ html[data-theme="minecraft"] .home-dev-meta{color:#5f5648}
 .dev-label.announcements{background:#ffe5b7;color:#6d4100;border-color:#b87000}
 .dev-label.website{background:#e5e5e5;color:#303030;border-color:#747474}
 .dev-label.sneak-peaks{background:#dff5ef;color:#135d4c;border-color:#2b8c74}
+
+
+/* V5.12 clickable homepage DevUpdates */
+.home-dev-card{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+  cursor:pointer;
+  transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.home-dev-card:hover{
+  transform:translate(-2px,-2px);
+  border-color:var(--yellow);
+  box-shadow:8px 8px 0 #d7d0be;
+}
+.home-dev-open{
+  display:inline-block;
+  margin-top:14px;
+  font-family:"Courier New",monospace;
+  font-size:.74rem;
+  font-weight:900;
+  text-transform:uppercase;
+  color:var(--ink);
+}
+html[data-theme="dark"] .home-dev-card:hover{
+  box-shadow:8px 8px 0 #090909;
+}
+html[data-theme="dark"] .home-dev-open{
+  color:#f1eee5;
+}
+html[data-theme="minecraft"] .home-dev-card:hover{
+  box-shadow:8px 8px 0 #4e402e;
+}
