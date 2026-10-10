@@ -1,6 +1,6 @@
 window.RESCO_SITE_DATA = {
-  "version": "V6.3",
-  "generatedAt": "2026-10-06T21:55:30.884Z",
+  "version": "V6.4",
+  "generatedAt": "2026-10-10T09:30:02.435Z",
   "settings": {
     "siteName": "RESCO",
     "siteSubtitle": "Minecraft maps & projects.",
@@ -259,7 +259,9 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 4
+      "latestRank": 4,
+      "mods": [],
+      "optionalMods": []
     },
     {
       "id": "mountain-house-2",
@@ -470,7 +472,9 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 1
+      "latestRank": 1,
+      "mods": [],
+      "optionalMods": []
     },
     {
       "id": "starter-survival",
@@ -559,7 +563,9 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 5
+      "latestRank": 5,
+      "mods": [],
+      "optionalMods": []
     },
     {
       "id": "survive-to-glory",
@@ -861,7 +867,9 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 6
+      "latestRank": 6,
+      "mods": [],
+      "optionalMods": []
     },
     {
       "id": "ultimate-survival-base-java",
@@ -1076,7 +1084,9 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 2
+      "latestRank": 2,
+      "mods": [],
+      "optionalMods": []
     },
     {
       "id": "ultimate-survival-base-bedrock",
@@ -1291,7 +1301,9 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 3
+      "latestRank": 3,
+      "mods": [],
+      "optionalMods": []
     },
     {
       "id": "village-base",
@@ -1501,28 +1513,50 @@ window.RESCO_SITE_DATA = {
           ]
         }
       ],
-      "latestRank": 7
+      "latestRank": 7,
+      "mods": [],
+      "optionalMods": []
     }
   ],
   "devUpdates": [
     {
+      "id": "post-mv26kn0hmyvkh",
+      "title": "Coming Soon",
+      "date": "2026-10-10",
+      "status": "Published",
+      "type": "Announcements",
+      "labels": [
+        "Announcements",
+        "Development",
+        "Sneak Peaks"
+      ],
+      "featuredImage": "assets/images/generated/devupdate-1-featured-1.webp",
+      "summary": "",
+      "body": "A brand new map is coming....\nTake a first look at the attached screenshot!\n\nMore information soon!",
+      "images": [],
+      "videos": [],
+      "links": [],
+      "pinned": false,
+      "order": 2
+    },
+    {
       "id": "post-mux4y1req7qo4",
-      "title": "NEW WEBSITE",
+      "title": "NEW WEBSITE NOW LIVE!",
       "date": "2026-10-06",
       "status": "Published",
       "type": "Announcements",
-      "featuredImage": "assets/images/generated/devupdate-1-featured-1.webp",
+      "featuredImage": "assets/images/generated/devupdate-2-featured-2.webp",
       "summary": "New Website for my maps is now available!",
       "body": "Introducing, RESCO!\nMy all new website to find all my maps is now available! \nCheck it out in the screenshots below and also explore the rest via the link!\n\nThank You and enjoy!",
       "images": [
         {
           "id": "img-mux6ijejgjh1f",
-          "url": "assets/images/generated/devupdate-1-image-1-2.webp",
+          "url": "assets/images/generated/devupdate-2-image-1-3.webp",
           "caption": "Java Edition Maps Page"
         },
         {
           "id": "img-mux6is19xnjw4",
-          "url": "assets/images/generated/devupdate-1-image-2-3.webp",
+          "url": "assets/images/generated/devupdate-2-image-2-4.webp",
           "caption": "Bedrock Edition Maps Page"
         }
       ],
@@ -1535,7 +1569,7 @@ window.RESCO_SITE_DATA = {
         }
       ],
       "pinned": false,
-      "order": 2,
+      "order": 4,
       "labels": [
         "Announcements",
         "Website"
