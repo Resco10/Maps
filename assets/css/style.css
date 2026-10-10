@@ -553,3 +553,159 @@ html[data-theme="minecraft"] .home-dev-card:hover{
 .mods-dual-grid>.mod-category-panel:only-child{grid-column:1/-1;max-width:760px}
 @media(max-width:760px){.mods-dual-grid{grid-template-columns:1fr}.mods-dual-grid>.mod-category-panel:only-child{max-width:none}}
 @media(max-width:480px){.mod-mini-row{align-items:flex-start;flex-direction:column;gap:7px}}
+
+
+/* V5.21 Minecraft theme — DevUpdates consistency fix */
+html[data-theme="minecraft"] .latest-dev-card,
+html[data-theme="minecraft"] .dev-feed-card,
+html[data-theme="minecraft"] .dev-post,
+html[data-theme="minecraft"] .devupdate-card{
+  background:#dfcf9f !important;
+  color:#2a281f !important;
+  border-color:#4f6649 !important;
+  box-shadow:7px 7px 0 rgba(0,0,0,.28);
+}
+
+html[data-theme="minecraft"] .latest-dev-card h1,
+html[data-theme="minecraft"] .latest-dev-card h2,
+html[data-theme="minecraft"] .latest-dev-card h3,
+html[data-theme="minecraft"] .dev-feed-card h1,
+html[data-theme="minecraft"] .dev-feed-card h2,
+html[data-theme="minecraft"] .dev-feed-card h3,
+html[data-theme="minecraft"] .dev-post h1,
+html[data-theme="minecraft"] .dev-post h2,
+html[data-theme="minecraft"] .dev-post h3,
+html[data-theme="minecraft"] .devupdate-card h1,
+html[data-theme="minecraft"] .devupdate-card h2,
+html[data-theme="minecraft"] .devupdate-card h3,
+html[data-theme="minecraft"] .dev-title{
+  color:#29271f !important;
+}
+
+html[data-theme="minecraft"] .latest-dev-card p,
+html[data-theme="minecraft"] .dev-feed-card p,
+html[data-theme="minecraft"] .dev-post p,
+html[data-theme="minecraft"] .devupdate-card p{
+  color:#4d4939 !important;
+}
+
+html[data-theme="minecraft"] .latest-dev-card time,
+html[data-theme="minecraft"] .dev-feed-card time,
+html[data-theme="minecraft"] .dev-post time,
+html[data-theme="minecraft"] .devupdate-card time,
+html[data-theme="minecraft"] .dev-date{
+  color:#5e5846 !important;
+}
+
+html[data-theme="minecraft"] .latest-dev-card a,
+html[data-theme="minecraft"] .dev-feed-card a,
+html[data-theme="minecraft"] .dev-post a,
+html[data-theme="minecraft"] .devupdate-card a{
+  color:#29271f;
+}
+
+html[data-theme="minecraft"] .latest-dev-card:hover,
+html[data-theme="minecraft"] .dev-feed-card:hover,
+html[data-theme="minecraft"] .dev-post:hover,
+html[data-theme="minecraft"] .devupdate-card:hover{
+  border-color:#f0c419 !important;
+}
+
+
+/* V5.22 Minecraft DevUpdates exact card + link fixes */
+
+/* Homepage Latest DevUpdates: match Minecraft map cards exactly */
+html[data-theme="minecraft"] .home-dev-card{
+  background:#d9c99e !important;
+  color:#201d16 !important;
+  border-color:#5a4934 !important;
+  box-shadow:5px 5px 0 #11170f !important;
+}
+html[data-theme="minecraft"] .home-dev-card:hover{
+  box-shadow:8px 8px 0 #68a84b !important;
+  border-color:#5a4934 !important;
+}
+html[data-theme="minecraft"] .home-dev-card h3{
+  color:#201d16 !important;
+}
+html[data-theme="minecraft"] .home-dev-card p{
+  color:#514837 !important;
+}
+html[data-theme="minecraft"] .home-dev-meta{
+  color:#5b513f !important;
+}
+html[data-theme="minecraft"] .home-dev-open{
+  color:#201d16 !important;
+}
+
+/* Full DevUpdates feed: same Minecraft map-card palette */
+html[data-theme="minecraft"] .dev-post{
+  background:#d9c99e !important;
+  color:#201d16 !important;
+  border-color:#5a4934 !important;
+  box-shadow:6px 6px 0 #11170f !important;
+}
+html[data-theme="minecraft"] .dev-post.pinned{
+  border-color:#68a84b !important;
+  box-shadow:6px 6px 0 #68a84b !important;
+}
+html[data-theme="minecraft"] .dev-post-body h2{
+  color:#201d16 !important;
+}
+html[data-theme="minecraft"] .dev-post-body p{
+  color:#514837 !important;
+}
+html[data-theme="minecraft"] .dev-author b{
+  color:#201d16 !important;
+}
+html[data-theme="minecraft"] .dev-author small,
+html[data-theme="minecraft"] .dev-post-foot{
+  color:#5b513f !important;
+}
+html[data-theme="minecraft"] .dev-post-foot{
+  border-color:#79684e !important;
+}
+
+/* DevUpdate custom links: keep button contrast readable */
+html[data-theme="minecraft"] .dev-links .btn{
+  background:#263324 !important;
+  color:#f1efe5 !important;
+  border-color:#8a9b80 !important;
+}
+html[data-theme="minecraft"] .dev-links .btn:hover{
+  background:#68a84b !important;
+  color:#10200d !important;
+  border-color:#68a84b !important;
+  box-shadow:4px 4px 0 #382b1d !important;
+}
+
+/* Prevent broad DevUpdate link colour rules from recolouring buttons */
+html[data-theme="minecraft"] .dev-post .dev-links a.btn{
+  color:#f1efe5 !important;
+}
+html[data-theme="minecraft"] .dev-post .dev-links a.btn:hover{
+  color:#10200d !important;
+}
+
+/* Gallery captions inside Minecraft DevUpdates */
+html[data-theme="minecraft"] .dev-post .dev-gallery figcaption{
+  background:#c8b98f !important;
+  color:#241f16 !important;
+  border-color:#6c5b42 !important;
+}
+
+
+/* V5.23 DevUpdate link spacing */
+.dev-links{
+  margin-top:20px;
+  padding-top:2px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.dev-gallery + .dev-links{
+  margin-top:22px;
+}
+.dev-links + .dev-post-foot{
+  margin-top:20px;
+}

@@ -1,6 +1,6 @@
 window.RESCO_SITE_DATA = {
-  "version": "V6.4",
-  "generatedAt": "2026-10-10T09:30:02.435Z",
+  "version": "V6.41",
+  "generatedAt": "2026-10-10T15:44:25.776Z",
   "settings": {
     "siteName": "RESCO",
     "siteSubtitle": "Minecraft maps & projects.",
